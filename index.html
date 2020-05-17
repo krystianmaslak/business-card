@@ -11,19 +11,21 @@
     <main class="main">
       <article class="person">
         <img class="person__picture" src="avatar.png" alt="Zdjęcie Imię i nazwisko" />
-        <header class="person__info">
-          <h1 class="person__name">Imię i nazwisko</h1>
-          <p class="person__position">stanowisko</p>
-        </header>
-        <p class="person__description person__description--with-margin"> <!-- modyfikator-->
-          Programista z <strong class="special">kilkunastoletnim doświadczeniem</strong>, fotograf, operator
-          drona, właściciel Sokoła Millennium (na razie tylko z Lego), <strong class="special">prelegent
-          i szkoleniowiec</strong>. Uwielbia eksperymentować z nowymi technologiami, w
-          swojej twórczości ocierając się o sztukę.
-        </p class="person__description">
-        <p>W sieci:  <a class="person__link" href="#">Facebook</a>,  
-          <a class="person__link" class="" href="#">GitHub</a>,  
-          <a class="person__link" class="" href="#">Instagram</a>.</p>
+        <div> <!-- to nie jest bląd Traktowana jako jeden element przez flex-boxa-->
+          <header class="person__info">
+            <h1 class="person__name">Krystian Maślak</h1>
+            <p class="person__position">nowicjusz</p>
+          </header>
+          <p class="person__description person__description--with-margin"> <!-- modyfikator-->
+            Żółtodziób, stawiający pierwsze kroki <strong class="special">bez doświadczenia</strong>. 
+            Trenuje siłowo, a w przyszłości zamierza również trenować sporty walki.
+             Uwielbia nadawać życiu sens, bo rutyna to nic dobrego.
+          </p class="person__description">
+            W sieci:  <a class="person__link" href="#">Facebook</a>,  
+            <a class="person__link" class="" href="https://github.com/krystianmaslak">GitHub</a>,  
+            <a class="person__link" class="" href="#">Instagram</a>.
+          </p>
+      </div>
       </article>
     </main>
   </body>
