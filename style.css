@@ -25,23 +25,27 @@ body {
 }
 
 .person {
-    
 }
 
 .person__description {
-    font-size: 16px;
-    line-height: 22px; /* wysokość linii */
+  font-size: 16px;
+  line-height: 22px; /* wysokość linii */
 }
 
 .person__name {
-    font-size: 36px;
-    margin: 0;
-    font-weight: normal;
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
 }
 
 .person__position {
-    font-size: 18px;
-    color: #545454;
-    margin: 0;
-    font-style: italic; /* kursywa */
+  font-size: 18px;
+  color: #545454;
+  margin: 0;
+  font-style: italic; /* kursywa */
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
 }
