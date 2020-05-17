@@ -1,22 +1,47 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  body {
-      background: #2C2141;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif; /* sans-serif - bezszeryfowy */
+}
 
-  }
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px; /* domyślnie warto dodać 16px do elegancji */
+  padding: 32px;
+}
 
-  .main {
-      background: #F8F8F8;
-      border-radius: 16px;
-      width: 624px;
-      margin: 16px; /* domyślnie warto dodać 16px do elegancji */
-  }
+.person {
+    
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px; /* wysokość linii */
+}
+
+.person__name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.person__position {
+    font-size: 18px;
+    color: #545454;
+    margin: 0;
+    font-style: italic; /* kursywa */
+}
